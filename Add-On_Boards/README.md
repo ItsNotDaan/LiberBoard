@@ -1,43 +1,46 @@
-# LiberBoard 
+# LiberBoard Add-Ons
 
+LiberBoard offers a range of add-on boards designed to expand the functionality of our main products, LiBo Duo and LiBo Quad. Each add-on board is equipped with an M.2 interface and has a maximum component size of 0805.
 
-<!-- 
-4.	The add on boards:
-1.	16x2 LCD, 16 bit LEDS (Under screen), ADC sensor, Temp sensor. (LiBo StarterBoard)
-a.	M.2 interface.
-b.	Size (0805) maximum.
-c.	Exercises:
-i.	Write temperature from sensor to the screen. 
-ii.	Learn about I2C. 
-iii.	Write text on the screen using Assembly Language.
+## LiBo StarterBoard
 
-2.	Arduino pinout. (LiBo ArduinoBoard)
-a.	M.2 interface.
-b.	Size (0805) maximum.
-c.	Able to communicate with Arduino Modules.
-d.	Able to program main board using this board. 
-e.	Exercises:
-i.	Blink
-ii.	SPI
+The LiBo StarterBoard features a 16x2 LCD, 16-bit LEDs (under the screen), an ADC sensor, and a temperature sensor.
 
- 
-3.	Audio Processing Board (LiBo DSPBoard)
-a.	M.2 interface
-b.	Size (0805) maximum
-c.	Components: Audio codec, audio jack for audio input/output, microphone, speaker connectors.
-d.	Exercises:
-i.	Learn about digital to analog conversion and vice versa.
-ii.	Create a simple audio playback and recording system.
-iii.	Machine Learning Board
-iv.	M.2 interface
+### Features
 
-4.	Programming stand/Main board base station. (LiBo BaseBoard)
-a.	M.2 interface
-b.	Size (0805) maximum
-c.	Slide in the PCB vertically.
-d.	Components:
-i.	Some pinouts at the front for easy access and fast testing.
-ii.	Two BNC connectors
-iii.	Status LEDS -->
+- 16x2 LCD
+- 16-bit LEDs under the screen
+- ADC sensor
+- Temperature sensor
 
+## LiBo ArduinoBoard
 
+The LiBo ArduinoBoard is designed with an Arduino pinout, allowing it to communicate with Arduino modules and program the main board.
+
+### Features
+
+- Arduino pinout
+- Able to communicate with Arduino modules
+- Able to program main board
+
+## LiBo DSPBoard
+
+The LiBo DSPBoard is an audio processing board equipped with an audio codec, audio jack for audio input/output, microphone, and speaker connectors.
+
+### Features
+
+- Audio processing capabilities
+- Audio codec
+- Audio jack for audio input/output
+- Microphone and speaker connectors
+
+## LiBo BaseBoard
+
+The LiBo BaseBoard serves as a programming stand and base station for the main boards, featuring some pinouts at the front for easy access and fast testing, as well as two BNC connectors and status LEDs.
+
+### Features
+
+- Programming stand and base station for main boards
+- Pinouts at the front for easy access and fast testing
+- Two BNC connectors
+- Status LEDs
