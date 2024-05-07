@@ -1,6 +1,3 @@
-Sure, here's the markdown version of the README:
-
-```markdown
 # LiBo Electronics Learning Platform
 
 ## Vision
@@ -32,4 +29,3 @@ All the PCB designs are created using the EDA software KiCad. The design files a
 ## Conclusion
 
 LiBo Electronics Learning Platform is a comprehensive solution for anyone looking to delve into the world of electronics. By providing well-documented, easy-to-use, and flexible resources, we hope to inspire a new generation of electronics enthusiasts and professionals.
-```
