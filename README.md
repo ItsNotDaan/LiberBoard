@@ -1,4 +1,4 @@
-# LiBo Electronics Learning Platform
+# LiberBoard Electronics Learning Platform
 
 ## Vision
 
