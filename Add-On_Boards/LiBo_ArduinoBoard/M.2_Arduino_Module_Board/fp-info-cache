@@ -1,4 +1,4 @@
-23370459178072460
+23379035040945977
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56833,6 +56833,13 @@ Arduino_Uno_Footprint
 32
 32
 GitHub_Library
+MCP1703T5002EMB
+3-Lead Plastic Small Outline Transistor Header (MB) [SOT-89]
+Integrated Circuit
+0
+4
+4
+GitHub_Library
 USON-8-2X3_P0.6mm
 USON 2x3x0.6-mm
 Integrated Circuit
@@ -68985,12 +68992,33 @@ uDFN-10-WIDE
 9
 5
 PCB_Lib_ItsNotDaan_KiCad
+21992303
+2199230-3-1
+Connector
+0
+69
+69
+PCB_Lib_ItsNotDaan_KiCad
+ANTC3216X140N
+2450AT18B100E-1
+Antenna
+0
+2
+2
+PCB_Lib_ItsNotDaan_KiCad
 Arduino_Uno_Footprint
 
 
 0
 32
 32
+PCB_Lib_ItsNotDaan_KiCad
+MCP1703T5002EMB
+3-Lead Plastic Small Outline Transistor Header (MB) [SOT-89]
+Integrated Circuit
+0
+4
+4
 PCB_Lib_ItsNotDaan_KiCad
 USON-8-2X3_P0.6mm
 USON 2x3x0.6-mm
@@ -89235,6 +89263,13 @@ Antenna
 0
 2
 2
+SamacSys_Parts
+MCP1703T5002EMB
+3-Lead Plastic Small Outline Transistor Header (MB) [SOT-89]
+Integrated Circuit
+0
+4
+4
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
