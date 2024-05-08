@@ -1,4 +1,4 @@
-23365313671789970
+23370459178072460
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56811,6 +56811,41 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GitHub_Library
+21992303
+2199230-3-1
+Connector
+0
+69
+69
+GitHub_Library
+ANTC3216X140N
+2450AT18B100E-1
+Antenna
+0
+2
+2
+GitHub_Library
+Arduino_Uno_Footprint
+
+
+0
+32
+32
+GitHub_Library
+USON-8-2X3_P0.6mm
+USON 2x3x0.6-mm
+Integrated Circuit
+0
+9
+9
+GitHub_Library
+WS2812C2020
+WS2812C-2020-2
+LED
+0
+4
+4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -62432,20 +62467,6 @@ solder jumper open
 0
 5
 3
-KiCad_Library
-USON-8-2X3_P0.6mm
-USON 2x3x0.6-mm
-Integrated Circuit
-0
-9
-9
-KiCad_Library
-WS2812C2020
-WS2812C-2020-2
-LED
-0
-4
-4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -68963,21 +68984,21 @@ uDFN-10-WIDE
 0
 9
 5
-PCB_Lib_DaanHeetkamp_KiCad
+PCB_Lib_ItsNotDaan_KiCad
 Arduino_Uno_Footprint
 
 
 0
 32
 32
-PCB_Lib_DaanHeetkamp_KiCad
+PCB_Lib_ItsNotDaan_KiCad
 USON-8-2X3_P0.6mm
 USON 2x3x0.6-mm
 Integrated Circuit
 0
 9
 9
-PCB_Lib_DaanHeetkamp_KiCad
+PCB_Lib_ItsNotDaan_KiCad
 WS2812C2020
 WS2812C-2020-2
 LED

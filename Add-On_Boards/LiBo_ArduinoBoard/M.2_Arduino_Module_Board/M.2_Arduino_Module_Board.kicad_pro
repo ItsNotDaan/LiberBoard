@@ -427,11 +427,14 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "KiCad_Library"
+      "KiCad_Library",
+      "M.2-Card-Footprints",
+      "GitHub_Library"
     ],
     "pinned_symbol_libs": [
       "KiCad_Library",
-      "GitHub_Library"
+      "GitHub_Library",
+      "PCB_Lib_ItsNotDaan_KiCad"
     ]
   },
   "meta": {

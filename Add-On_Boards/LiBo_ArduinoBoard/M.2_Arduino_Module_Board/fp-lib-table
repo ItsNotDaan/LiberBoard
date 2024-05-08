@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "KiCad_Library")(type "KiCad")(uri "${KIPRJMOD}/Library/GitHub_Library/PCB_Lib_DaanHeetkamp.pretty")(options "")(descr ""))
+  (lib (name "GitHub_Library")(type "KiCad")(uri "${KIPRJMOD}/Library/GitHub_Library/PCB_Lib_ItsNotDaan.pretty")(options "")(descr ""))
 )
