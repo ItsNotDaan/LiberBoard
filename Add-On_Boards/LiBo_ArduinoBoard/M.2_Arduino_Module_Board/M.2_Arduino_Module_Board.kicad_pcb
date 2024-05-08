@@ -726,7 +726,7 @@
 		(descr "2199230-3-1")
 		(tags "Connector")
 		(property "Reference" "J2"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "21a56406-80dd-4939-8ed6-910835a017fe")
 			(effects
@@ -737,7 +737,7 @@
 			)
 		)
 		(property "Value" "2199230-3"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5ad46533-f161-465c-b735-c4a8420f455f")
@@ -1036,7 +1036,7 @@
 			(uuid "a2a2eef1-27db-4e24-a0e8-814ebed83d46")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.Fab")
 			(uuid "bb89c851-3202-4e56-99cc-ae70a993d747")
 			(effects
@@ -2167,7 +2167,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2497,7 +2497,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at -2.2 0.025 270)
+			(at -2.2 0.025 -90)
 			(layer "F.SilkS")
 			(uuid "2296f0fb-1851-4def-9fc6-4770803af755")
 			(effects
@@ -2508,7 +2508,7 @@
 			)
 		)
 		(property "Value" "450k"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "43fa37af-2e5e-4900-87fc-e8873fd123d5")
 			(effects
@@ -2660,7 +2660,7 @@
 			(uuid "83a338df-1c3c-4abe-b259-1d3427d88edb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "04116bdb-66fb-45ad-b301-128d02d7c04b")
 			(effects
@@ -2707,7 +2707,7 @@
 		(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
-			(at -0.075 2.375 270)
+			(at -0.075 2.375 -90)
 			(layer "F.SilkS")
 			(uuid "a0d0ba8d-2096-4919-8ad0-255b0d456f92")
 			(effects
@@ -2718,7 +2718,7 @@
 			)
 		)
 		(property "Value" "TLV62568DBV"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "04ca0264-45a4-4dd3-a969-5cbb063a8e18")
 			(effects
@@ -2912,7 +2912,7 @@
 			(uuid "3e35ced6-385c-4280-af02-9ed4645b8cc9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "44530ed0-e37b-4328-a477-e66e196f13ce")
 			(effects
@@ -3201,7 +3201,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at -0.05 1.525 270)
+			(at -0.05 1.525 -90)
 			(layer "F.SilkS")
 			(uuid "92c37059-15f1-431d-abd4-59ecb6e9b763")
 			(effects
@@ -3605,7 +3605,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 1.775 -0.05 270)
+			(at 1.775 -0.05 -90)
 			(layer "F.SilkS")
 			(uuid "2b8347e1-55f5-4239-af2b-8d52a205f820")
 			(effects
@@ -4019,7 +4019,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at 0.025 2.3875 360)
+			(at 0.025 2.3875 0)
 			(layer "F.SilkS")
 			(uuid "a767e31c-2bc2-4504-a117-0738d06fe3d7")
 			(effects
@@ -4030,7 +4030,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "41c2cb61-ea09-4c54-af8e-99ed17188518")
 			(effects
@@ -4224,7 +4224,7 @@
 			(uuid "7ea45671-b401-4bc2-a99d-c3231eaf8185")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9f070938-5750-452a-8129-fc8d1a894ee3")
 			(effects

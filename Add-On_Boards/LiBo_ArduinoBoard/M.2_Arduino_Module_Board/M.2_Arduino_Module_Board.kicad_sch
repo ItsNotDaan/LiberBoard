@@ -419,7 +419,7 @@
 				)
 			)
 		)
-		(symbol "PCB_Lib_DaanHeetkamp:USB_C_Receptacle_USB2.0"
+		(symbol "KiCad_Library:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
 			)
@@ -7012,7 +7012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCB_Lib_DaanHeetkamp:USB_C_Receptacle_USB2.0")
+		(lib_id "KiCad_Library:USB_C_Receptacle_USB2.0")
 		(at 33.02 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7055,7 +7055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Receptacle connector"
 			(at 33.02 53.34 0)
 			(effects
 				(font
