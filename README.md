@@ -1,7 +1,4 @@
-Sure, here's the markdown version of the README:
-
-```markdown
-# LiBo Electronics Learning Platform
+# LiberBoard Electronics Learning Platform
 
 ## Vision
 
@@ -9,7 +6,7 @@ Our vision is to bridge the gap in electronics learning and project creation by 
 
 ## Development
 
-LiBo Electronics Learning Platform is developed with the user in mind, ensuring a high degree of modularity and flexibility. The platform consists of two main PCBs and several add-on boards, each serving a unique purpose and adding a different dimension to the learning process.
+LiberBoard Electronics Learning Platform is developed with the user in mind, ensuring a high degree of modularity and flexibility. The platform consists of two main LiBo PCBs and several add-on boards, each serving a unique purpose and adding a different dimension to the learning process.
 
 ### Main Boards
 
@@ -27,9 +24,8 @@ Each board is accompanied by exercises and code snippets to enable hands-on lear
 
 ## Used Software and Products
 
-All the PCB designs are created using the EDA software KiCad. The design files are open source and are available on GitHub, allowing users to recreate, modify, and order the PCBs. The platform also provides options for DIY PCB creation or ordering from the site.
+All the LiBo PCB designs are created using the EDA software KiCad. The design files are open source and are available on GitHub, allowing users to recreate, modify, and order the PCBs. The platform also provides options for DIY PCB creation or ordering from the site.
 
 ## Conclusion
 
-LiBo Electronics Learning Platform is a comprehensive solution for anyone looking to delve into the world of electronics. By providing well-documented, easy-to-use, and flexible resources, we hope to inspire a new generation of electronics enthusiasts and professionals.
-```
+LiberBoard Electronics Learning Platform is a comprehensive solution for anyone looking to delve into the world of electronics. By providing well-documented, easy-to-use, and flexible resources, we hope to inspire a new generation of electronics enthusiasts and professionals.
