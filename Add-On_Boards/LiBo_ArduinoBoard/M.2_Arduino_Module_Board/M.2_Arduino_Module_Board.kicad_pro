@@ -426,8 +426,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "KiCad_Library"
+    ],
+    "pinned_symbol_libs": [
+      "KiCad_Library"
+    ]
   },
   "meta": {
     "filename": "M.2_Arduino_Module_Board.kicad_pro",
