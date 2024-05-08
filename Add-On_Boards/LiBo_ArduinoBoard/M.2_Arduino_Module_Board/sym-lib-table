@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "KiCad_Library")(type "KiCad")(uri "${KIPRJMOD}/Library/GitHub_Library/PCB_Lib_DaanHeetkamp.kicad_sym")(options "")(descr ""))
+)
