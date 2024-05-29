@@ -1,4 +1,4 @@
-23379035040945977
+23382504049194000
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56811,42 +56811,84 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-GitHub_Library
+Github_Library
 21992303
 2199230-3-1
 Connector
 0
 69
 69
-GitHub_Library
+Github_Library
 ANTC3216X140N
 2450AT18B100E-1
 Antenna
 0
 2
 2
-GitHub_Library
+Github_Library
 Arduino_Uno_Footprint
 
 
 0
 32
 32
-GitHub_Library
+Github_Library
+KHBNC503511
+KH-BNC50-3511-2
+Connector
+0
+2
+2
+Github_Library
 MCP1703T5002EMB
 3-Lead Plastic Small Outline Transistor Header (MB) [SOT-89]
 Integrated Circuit
 0
 4
 4
-GitHub_Library
+Github_Library
+SN74LVC125APWR
+SN74LVC125APWR-4
+Integrated Circuit
+0
+14
+14
+Github_Library
+SON50P300X200X60-9N
+USON 2x3x0.6-mm
+Integrated Circuit
+0
+9
+9
+Github_Library
+SOP50P490X110-10N
+10 vssop
+Integrated Circuit
+0
+10
+10
+Github_Library
+SOT65P210X110-6N
+DCK (R-PDSO-G6)
+Integrated Circuit
+0
+6
+6
+Github_Library
+TFPUSH
+TF PUSH-1
+Connector
+0
+13
+13
+Github_Library
 USON-8-2X3_P0.6mm
 USON 2x3x0.6-mm
 Integrated Circuit
 0
 9
 9
-GitHub_Library
+Github_Library
 WS2812C2020
 WS2812C-2020-2
 LED
@@ -69013,12 +69055,33 @@ Arduino_Uno_Footprint
 32
 32
 PCB_Lib_ItsNotDaan_KiCad
+KHBNC503511
+KH-BNC50-3511-2
+Connector
+0
+2
+2
+PCB_Lib_ItsNotDaan_KiCad
 MCP1703T5002EMB
 3-Lead Plastic Small Outline Transistor Header (MB) [SOT-89]
 Integrated Circuit
 0
 4
 4
+PCB_Lib_ItsNotDaan_KiCad
+SOP50P490X110-10N
+10 vssop
+Integrated Circuit
+0
+10
+10
+PCB_Lib_ItsNotDaan_KiCad
+SOT65P210X110-6N
+DCK (R-PDSO-G6)
+Integrated Circuit
+0
+6
+6
 PCB_Lib_ItsNotDaan_KiCad
 USON-8-2X3_P0.6mm
 USON 2x3x0.6-mm
@@ -89249,55 +89312,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SamacSys_Parts
-21992303
-2199230-3-1
-Connector
-0
-69
-69
-SamacSys_Parts
-ANTC3216X140N
-2450AT18B100E-1
-Antenna
-0
-2
-2
-SamacSys_Parts
-MCP1703T5002EMB
-3-Lead Plastic Small Outline Transistor Header (MB) [SOT-89]
-Integrated Circuit
-0
-4
-4
-SamacSys_Parts
-NE555DR
-D (R-PDSO-G8)
-Integrated Circuit
-0
-8
-8
-SamacSys_Parts
-SON50P300X200X60-9N
-USON 2x3x0.6-mm
-Integrated Circuit
-0
-9
-9
-SamacSys_Parts
-WS2812C2020
-WS2812C-2020-2
-LED
-0
-4
-4
-SamacSys_Parts
-WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm
-WSON-10 package 2x3mm body, pitch 0.5mm, see http://www.ti.com/lit/ds/symlink/tps62177.pdf
-WSON 0.5 
-0
-14
-11
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

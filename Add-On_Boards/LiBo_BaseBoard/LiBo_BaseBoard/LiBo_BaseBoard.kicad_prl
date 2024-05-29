@@ -60,9 +60,10 @@
       34,
       35,
       36,
+      39,
       40
     ],
-    "visible_layers": "00090aa_80000001",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -72,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "M.2_Arduino_Module_Board.kicad_prl",
+    "filename": "LiBo_BaseBoard.kicad_prl",
     "version": 3
   },
   "project": {

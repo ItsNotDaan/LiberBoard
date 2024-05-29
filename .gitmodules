@@ -4,3 +4,6 @@
 [submodule "Add-On_Boards/LiBo_ArduinoBoard/M.2_Arduino_Module_Board/Library/GitHub_Library"]
 	path = Add-On_Boards/LiBo_ArduinoBoard/M.2_Arduino_Module_Board/Library/GitHub_Library
 	url = https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git
+[submodule "Add-On_Boards/LiBo_BaseBoard/LiBo_BaseBoard/Library/GitHub_Library"]
+	path = Add-On_Boards/LiBo_BaseBoard/LiBo_BaseBoard/Library/GitHub_Library
+	url = https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git
