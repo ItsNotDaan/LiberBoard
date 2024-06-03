@@ -12600,7 +12600,7 @@
 	)
 	(rectangle
 		(start 19.05 16.51)
-		(end 50.8 24.13)
+		(end 57.15 27.94)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -12858,6 +12858,18 @@
 			)
 		)
 		(uuid "1df042c4-7914-4a9e-bdb4-4d489ef04fe7")
+	)
+	(text "USB 2.0\nUmax = 5V \nImax = 3A"
+		(exclude_from_sim no)
+		(at 42.418 25.908 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fb36aaf-6d2b-4d33-953c-4709660d8ed3")
 	)
 	(text "USED FOR TESTING"
 		(exclude_from_sim no)
@@ -13454,7 +13466,7 @@
 	)
 	(text "USB_C\n"
 		(exclude_from_sim no)
-		(at 20.32 21.59 0)
+		(at 25.4 23.368 0)
 		(effects
 			(font
 				(size 2 2)
@@ -13529,17 +13541,6 @@
 			(justify left bottom)
 		)
 		(uuid "0718f7aa-1a6d-414e-8538-d8405f1fa60d")
-	)
-	(label "JTAG_JRCLK"
-		(at 289.56 242.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "078090d1-2d97-4154-ac78-a7bee7afea2a")
 	)
 	(label "GPIO3"
 		(at 44.45 246.38 0)
@@ -13904,7 +13905,7 @@
 		)
 		(uuid "39b867b2-c717-42e5-a2c7-927e0bfc451b")
 	)
-	(label "JTAG_MTCK"
+	(label "JTAG_NRST"
 		(at 289.56 232.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13913,7 +13914,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3a4d53bd-453d-4f12-b4d7-9f4dd0d6a97f")
+		(uuid "3b0070de-5d6d-454d-90d1-dd5dfaa8da1a")
 	)
 	(label "JTAG_JRCLK"
 		(at 78.74 309.88 180)
@@ -14091,17 +14092,6 @@
 		)
 		(uuid "4a27d610-d820-434a-904d-5a3e7da9f9d5")
 	)
-	(label "JTAG_MTDI"
-		(at 289.56 240.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ac8a51d-1925-4884-a2c9-9e4b13ce64f7")
-	)
 	(label "DAC_MCU_OUT"
 		(at 78.74 294.64 180)
 		(fields_autoplaced yes)
@@ -14256,6 +14246,17 @@
 		)
 		(uuid "617721d2-140f-49c5-9cfa-882a787f09a8")
 	)
+	(label "JTAG_MTDO"
+		(at 289.56 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66dc57e7-cfbd-4a60-9414-8d8cae5646ce")
+	)
 	(label "GPIO4"
 		(at 44.45 248.92 0)
 		(fields_autoplaced yes)
@@ -14321,17 +14322,6 @@
 			(justify left bottom)
 		)
 		(uuid "732121f9-516c-4abd-8112-e1b32570b7f9")
-	)
-	(label "JTAG_NRST"
-		(at 289.56 229.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74106e8e-6544-4125-a17c-488a72745d90")
 	)
 	(label "ADC_IN2"
 		(at 229.87 165.1 180)
@@ -14531,6 +14521,17 @@
 		)
 		(uuid "8eb59d05-669b-4f44-b101-6bb8bdaaf8f3")
 	)
+	(label "JTAG_JRCLK"
+		(at 289.56 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f83843c-16de-4bd9-bf9a-cd65e93760a2")
+	)
 	(label "SCK_SPI"
 		(at 331.47 234.95 180)
 		(fields_autoplaced yes)
@@ -14563,17 +14564,6 @@
 			(justify left bottom)
 		)
 		(uuid "90277c72-1e1b-4009-87ac-c8f1472c4746")
-	)
-	(label "JTAG_MTDO"
-		(at 289.56 237.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "910cba32-5485-4314-bda4-a031cdccba43")
 	)
 	(label "GPIO45"
 		(at 93.98 194.31 180)
@@ -14905,6 +14895,17 @@
 		)
 		(uuid "b5059940-b941-40a2-9149-7a1f428ba24f")
 	)
+	(label "JTAG_MTDI"
+		(at 289.56 240.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5522c34-4b92-46c0-974f-3167849be9a6")
+	)
 	(label "SCK_SDCARD"
 		(at 283.21 109.22 0)
 		(fields_autoplaced yes)
@@ -14970,6 +14971,17 @@
 			(justify right bottom)
 		)
 		(uuid "b9e58764-6546-48c9-9d08-a8683c955ef7")
+	)
+	(label "JTAG_MTCK"
+		(at 289.56 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba9fb93f-7355-4dbe-beb8-bbb1ccd0c06f")
 	)
 	(label "CS0_SPI"
 		(at 78.74 276.86 180)
@@ -15124,6 +15136,17 @@
 			(justify left bottom)
 		)
 		(uuid "ca5f4b00-59b9-4535-bafd-56e362210bbc")
+	)
+	(label "JTAG_MTMS"
+		(at 289.56 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cac1c4e7-ee7e-4767-8df5-c3b4c79f9391")
 	)
 	(label "LCD_A"
 		(at 311.15 154.94 180)
@@ -15377,17 +15400,6 @@
 			(justify left bottom)
 		)
 		(uuid "f381759c-fa58-406e-af5b-3d8604a9db06")
-	)
-	(label "JTAG_MTMS"
-		(at 289.56 234.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f3a825e4-8f40-49c8-8ab1-eee698ebf78a")
 	)
 	(label "SDA"
 		(at 229.87 157.48 180)
@@ -19271,7 +19283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004131006_PANASONIC-EVQP2P02W_C512395.pdf"
 			(at 115.57 165.1 0)
 			(effects
 				(font
@@ -19282,6 +19294,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 120.65 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "EVQP2P02W"
+			(at 120.65 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19381,10 +19402,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6cf0c5f1-f409-409d-9984-d9ecf0ce87bc")
 		(property "Reference" "J1"
-			(at 33.02 27.94 0)
+			(at 42.418 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19392,7 +19412,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 33.02 30.48 0)
+			(at 33.02 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20905,7 +20925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004131006_PANASONIC-EVQP2P02W_C512395.pdf"
 			(at 115.57 215.9 0)
 			(effects
 				(font
@@ -20916,6 +20936,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 120.65 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "EVQP2P02W"
+			(at 120.65 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,4 +1,4 @@
-23382504049194000
+23389372082925694
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56895,6 +56895,13 @@ LED
 0
 4
 4
+Github_Library
+WS2812C2020 - Copy
+WS2812C-2020-2
+LED
+0
+4
+4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -69069,6 +69076,20 @@ Integrated Circuit
 4
 4
 PCB_Lib_ItsNotDaan_KiCad
+SN74LVC125APWR
+SN74LVC125APWR-4
+Integrated Circuit
+0
+14
+14
+PCB_Lib_ItsNotDaan_KiCad
+SON50P300X200X60-9N
+USON 2x3x0.6-mm
+Integrated Circuit
+0
+9
+9
+PCB_Lib_ItsNotDaan_KiCad
 SOP50P490X110-10N
 10 vssop
 Integrated Circuit
@@ -69082,6 +69103,13 @@ Integrated Circuit
 0
 6
 6
+PCB_Lib_ItsNotDaan_KiCad
+TFPUSH
+TF PUSH-1
+Connector
+0
+13
+13
 PCB_Lib_ItsNotDaan_KiCad
 USON-8-2X3_P0.6mm
 USON 2x3x0.6-mm
