@@ -12611,6 +12611,30 @@
 		(uuid ca1a2608-e6cf-402a-bbf6-d9e22edb1332)
 	)
 	(rectangle
+		(start 186.69 241.3)
+		(end 218.44 246.38)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca2898a2-b109-4784-bef8-3fdf05fc122f)
+	)
+	(rectangle
+		(start 186.69 241.3)
+		(end 229.87 292.1)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc073ba2-9cd3-4df9-bb64-1eded60b8057)
+	)
+	(rectangle
 		(start 365.76 133.35)
 		(end 441.96 200.66)
 		(stroke
@@ -13384,6 +13408,19 @@
 			)
 		)
 		(uuid "f0211437-a1b5-4587-b49a-b5931600e7cf")
+	)
+	(text "PWR Status LED"
+		(exclude_from_sim no)
+		(at 189.992 245.364 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0f78d27-1312-45ee-87f1-32587672f678")
 	)
 	(text "JTAG/SWD"
 		(exclude_from_sim no)
