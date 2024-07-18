@@ -7,3 +7,6 @@
 [submodule "Add-On_Boards/LiBo_BaseBoard/LiBo_BaseBoard/Library/GitHub_Library"]
 	path = Add-On_Boards/LiBo_BaseBoard/LiBo_BaseBoard/Library/GitHub_Library
 	url = https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git
+[submodule "Main_Boards/LiBo_QUAD/LiBo_QUAD/Library/GitHub_Library"]
+	path = Main_Boards/LiBo_QUAD/LiBo_QUAD/Library/GitHub_Library
+	url = https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git
