@@ -17001,6 +17001,16 @@
 		)
 		(uuid "c80a6f9a-d436-47dd-93ca-7c81b3319492")
 	)
+	(text "SWAP 18 AND 17"
+		(exclude_from_sim no)
+		(at -38.862 -12.446 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9665467-dd4d-420c-a86a-431031ddbfc9")
+	)
 	(text "Digital Analog Converter"
 		(exclude_from_sim no)
 		(at 169.164 89.154 0)

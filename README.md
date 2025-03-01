@@ -12,6 +12,7 @@ LiberBoard Electronics Learning Platform is developed with the user in mind, ens
 
 1. **LiBo DUO**: A budget-friendly, two-layer PCB with hand-solderable components.
 2. **LiBo QUAD**: A medium-budget, four-layer PCB solderable using a heat plate or oven.
+3. **LiBo ESP32-S3 SOM**: A high speed system on module that can be connected to multiple add-on boards.
 
 ### Add-on Boards
 
