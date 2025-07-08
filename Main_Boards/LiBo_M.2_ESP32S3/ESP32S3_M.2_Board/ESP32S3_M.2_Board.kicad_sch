@@ -6387,8 +6387,8 @@
 		(uuid 0b9e7641-cd02-41fa-9371-caf02bc5b5cf)
 	)
 	(rectangle
-		(start 441.96 139.7)
-		(end 471.17 151.13)
+		(start 441.96 135.89)
+		(end 471.17 147.32)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -6591,7 +6591,7 @@
 		(uuid c9b64594-d592-409c-9fae-8698c040d770)
 	)
 	(rectangle
-		(start 427.99 139.7)
+		(start 427.99 135.89)
 		(end 471.17 181.61)
 		(stroke
 			(width 0.5)
@@ -6746,7 +6746,7 @@
 	)
 	(text "NP = Normal\nP = Directly in Flash"
 		(exclude_from_sim no)
-		(at 443.992 149.352 0)
+		(at 443.738 145.796 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -6953,7 +6953,7 @@
 	)
 	(text "Boot Button\n"
 		(exclude_from_sim no)
-		(at 446.786 143.764 0)
+		(at 446.786 139.954 0)
 		(effects
 			(font
 				(size 2 2)
@@ -7119,6 +7119,12 @@
 		(uuid "0d49a839-9b03-43ef-ab74-db6be69c6799")
 	)
 	(junction
+		(at 434.34 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "126a9a5f-d9d7-4bd5-a6b6-34eff61e8129")
+	)
+	(junction
 		(at 115.57 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7173,6 +7179,12 @@
 		(uuid "24122aa0-2a03-4ec7-b377-97b84391cfdb")
 	)
 	(junction
+		(at 447.04 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26164ea9-8ecc-4c99-b92c-ae50495d3bd1")
+	)
+	(junction
 		(at 67.31 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7183,6 +7195,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29109a4d-968a-4749-a631-a462dd009ebb")
+	)
+	(junction
+		(at 243.84 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "298ac8bb-c3ff-4fc8-865d-ddaf8a32484f")
 	)
 	(junction
 		(at 124.46 133.35)
@@ -7407,7 +7425,7 @@
 		(uuid "95644891-ed65-489c-b9f3-5a1d176cad32")
 	)
 	(junction
-		(at 444.5 172.72)
+		(at 434.34 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96534dc8-8c83-4697-831f-563c8fbc3aea")
@@ -7587,12 +7605,6 @@
 		(uuid "f8db6d5d-fb27-4615-ae0e-846d5d407451")
 	)
 	(junction
-		(at 444.5 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9adcb4e-f051-4b68-8684-697720969230")
-	)
-	(junction
 		(at 95.25 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7666,7 +7678,7 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 170.18) (xy 444.5 172.72)
+			(xy 434.34 170.18) (xy 434.34 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7736,6 +7748,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 143.51) (xy 434.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076cd3e8-acd5-42eb-b8b2-54cbad00088a")
+	)
+	(wire
+		(pts
 			(xy 67.31 128.27) (xy 67.31 130.81)
 		)
 		(stroke
@@ -7746,7 +7768,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 194.31) (xy 243.84 199.39)
+			(xy 226.06 204.47) (xy 243.84 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07da4210-33b4-415b-b396-a85c5183acbd")
+	)
+	(wire
+		(pts
+			(xy 243.84 194.31) (xy 243.84 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7986,6 +8018,16 @@
 	)
 	(wire
 		(pts
+			(xy 434.34 153.67) (xy 434.34 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15325e5b-6e90-44da-aee3-5b6978496f6d")
+	)
+	(wire
+		(pts
 			(xy 334.01 119.38) (xy 344.17 119.38)
 		)
 		(stroke
@@ -8143,16 +8185,6 @@
 			(type default)
 		)
 		(uuid "22e508b9-214a-4f22-8d7b-26f9f1d202eb")
-	)
-	(wire
-		(pts
-			(xy 444.5 157.48) (xy 457.2 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f2a66f-1563-4595-a600-552da5a7970c")
 	)
 	(wire
 		(pts
@@ -8336,7 +8368,7 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 168.91) (xy 457.2 172.72)
+			(xy 447.04 168.91) (xy 447.04 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8423,6 +8455,16 @@
 			(type default)
 		)
 		(uuid "3a6e5f37-e708-42e5-bf05-7a3f957720df")
+	)
+	(wire
+		(pts
+			(xy 226.06 200.66) (xy 226.06 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab203a7-f7f9-4237-b1b9-881ee890d25f")
 	)
 	(wire
 		(pts
@@ -8896,6 +8938,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 204.47) (xy 243.84 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e9eaa1-cacb-4d49-bc66-78b25afb8444")
+	)
+	(wire
+		(pts
 			(xy 93.98 138.43) (xy 95.25 138.43)
 		)
 		(stroke
@@ -9006,7 +9058,7 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 172.72) (xy 444.5 175.26)
+			(xy 434.34 172.72) (xy 434.34 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9966,7 +10018,7 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 157.48) (xy 444.5 160.02)
+			(xy 434.34 157.48) (xy 434.34 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10496,7 +10548,7 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 157.48) (xy 457.2 161.29)
+			(xy 447.04 157.48) (xy 447.04 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10656,7 +10708,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 157.48) (xy 444.5 157.48)
+			(xy 461.01 157.48) (xy 447.04 157.48)
 		)
 		(stroke
 			(width 0)
@@ -11066,6 +11118,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 157.48) (xy 434.34 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e126e8b5-dd8a-4f93-bc59-9ee97a28bc60")
+	)
+	(wire
+		(pts
 			(xy 50.8 181.61) (xy 68.58 181.61)
 		)
 		(stroke
@@ -11186,7 +11248,7 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 172.72) (xy 444.5 172.72)
+			(xy 447.04 172.72) (xy 434.34 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11967,12 +12029,12 @@
 		(uuid "802dad0b-9a68-433f-8a03-cf51acb01c8a")
 	)
 	(label "CHIP_BOOT"
-		(at 431.8 157.48 0)
+		(at 461.01 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "81ad537b-84c2-4368-810b-03e49f4408c8")
 	)
@@ -12874,6 +12936,91 @@
 			(project "ESP32S3_M.2_Board"
 				(path "/c5870406-763b-471e-b639-251ff1f3739e"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 226.06 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0980e907-36d3-4ee9-9746-ca3e8f2f4969")
+		(property "Reference" "TP6"
+			(at 224.282 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 228.6 198.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 231.14 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 226.06 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Allied_Number" ""
+			(at 226.06 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART #" ""
+			(at 226.06 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21ab7ad0-dd4d-4cbd-bd82-6b633d59052d")
+		)
+		(instances
+			(project "ESP32S3_M.2_Board"
+				(path "/c5870406-763b-471e-b639-251ff1f3739e"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -15400,6 +15547,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 434.34 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53043338-d0e9-43d2-ac87-baf6eb1dc434")
+		(property "Reference" "R13"
+			(at 436.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 436.88 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 432.562 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 434.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 0402 50V 62,5mW ±100ppm"
+			(at 434.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Allied_Number" ""
+			(at 434.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART #" "C163810"
+			(at 434.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "WR04X1002FTL"
+			(at 434.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Walsin Tech Corp"
+			(at 434.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27ac986-3fc8-4ef6-af17-c3a1b45276bc")
+		)
+		(pin "2"
+			(uuid "91523186-14b5-476b-997c-f80466e8ac39")
+		)
+		(instances
+			(project "ESP32S3_M.2_Board"
+				(path "/c5870406-763b-471e-b639-251ff1f3739e"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 359.41 233.68 0)
 		(unit 1)
@@ -16108,7 +16361,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 444.5 175.26 0)
+		(at 434.34 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16117,7 +16370,7 @@
 		(fields_autoplaced yes)
 		(uuid "65be6a08-dca0-41be-93bf-3610419d52a9")
 		(property "Reference" "#PWR046"
-			(at 444.5 181.61 0)
+			(at 434.34 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16126,7 +16379,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 444.5 179.07 0)
+			(at 434.34 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16135,7 +16388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 444.5 175.26 0)
+			(at 434.34 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16144,7 +16397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 444.5 175.26 0)
+			(at 434.34 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,7 +16406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 444.5 175.26 0)
+			(at 434.34 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20419,7 +20672,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 444.5 165.1 90)
+		(at 434.34 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20427,7 +20680,7 @@
 		(dnp no)
 		(uuid "b3adc3cb-81a7-4f14-ab03-aacc8078fab9")
 		(property "Reference" "BOOT1"
-			(at 445.77 162.56 90)
+			(at 435.61 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20436,7 +20689,7 @@
 			)
 		)
 		(property "Value" "SW_BOOT"
-			(at 445.77 166.37 90)
+			(at 435.61 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20445,7 +20698,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2"
-			(at 439.42 165.1 0)
+			(at 429.26 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20454,7 +20707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 439.42 165.1 0)
+			(at 429.26 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20463,7 +20716,7 @@
 			)
 		)
 		(property "Description" "20mA 4.7mm 100MΩ 1,000,000 Times 1N 15V 3.5mm 2.5mm Rectangle button"
-			(at 444.5 165.1 0)
+			(at 434.34 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20472,7 +20725,7 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 444.5 165.1 0)
+			(at 434.34 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20481,7 +20734,7 @@
 			)
 		)
 		(property "LCSC PART #" "C512395"
-			(at 444.5 165.1 0)
+			(at 434.34 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20490,7 +20743,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EVQP2P02W"
-			(at 444.5 165.1 0)
+			(at 434.34 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20499,7 +20752,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "PANASONIC "
-			(at 444.5 165.1 0)
+			(at 434.34 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21206,6 +21459,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 434.34 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c11d4b85-d3c3-447b-a489-1a13f3cb1787")
+		(property "Reference" "#PWR052"
+			(at 434.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 434.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 434.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 434.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 434.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae840963-a9d5-4ea6-814e-c9d8b3b171cd")
+		)
+		(instances
+			(project "ESP32S3_M.2_Board"
+				(path "/c5870406-763b-471e-b639-251ff1f3739e"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 392.43 55.88 0)
 		(unit 1)
@@ -21742,7 +22061,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 457.2 165.1 0)
+		(at 447.04 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21750,7 +22069,7 @@
 		(dnp no)
 		(uuid "d9b0939f-5afe-4073-8dc2-7e582d4b4cf5")
 		(property "Reference" "C26"
-			(at 459.74 163.83 0)
+			(at 449.58 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21759,7 +22078,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 459.74 166.37 0)
+			(at 449.58 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21768,7 +22087,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 458.1652 168.91 0)
+			(at 448.0052 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21777,7 +22096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 457.2 165.1 0)
+			(at 447.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21786,7 +22105,7 @@
 			)
 		)
 		(property "Description" "25V 100nF X5R ±10% 0402"
-			(at 457.2 165.1 0)
+			(at 447.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21795,7 +22114,7 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 457.2 165.1 0)
+			(at 447.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21804,7 +22123,7 @@
 			)
 		)
 		(property "LCSC PART #" "C361203"
-			(at 457.2 165.1 0)
+			(at 447.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21813,7 +22132,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C1005X5R1E104KT000E"
-			(at 457.2 165.1 0)
+			(at 447.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21822,7 +22141,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 457.2 165.1 0)
+			(at 447.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22503,7 +22822,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 243.84 199.39 0)
+		(at 243.84 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22512,7 +22831,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb882eb5-6398-4f02-8523-18689f783e72")
 		(property "Reference" "#PWR019"
-			(at 243.84 205.74 0)
+			(at 243.84 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22521,7 +22840,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 243.84 203.2 0)
+			(at 243.84 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22530,7 +22849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 199.39 0)
+			(at 243.84 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22539,7 +22858,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 199.39 0)
+			(at 243.84 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22548,7 +22867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 243.84 199.39 0)
+			(at 243.84 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
