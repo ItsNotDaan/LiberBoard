@@ -2166,7 +2166,7 @@
 	)
 	(rectangle
 		(start 128.27 39.37)
-		(end 198.12 157.48)
+		(end 198.12 162.56)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -3888,6 +3888,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 153.67) (xy 172.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9538c2ef-ffab-4165-b22f-ed30f3b47a6b")
+	)
+	(wire
+		(pts
 			(xy 81.28 80.01) (xy 81.28 72.39)
 		)
 		(stroke
@@ -4258,6 +4268,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 156.21) (xy 172.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9745d3-d2a0-493d-ad7d-371628d4b148")
+	)
+	(wire
+		(pts
 			(xy 142.24 149.86) (xy 172.72 149.86)
 		)
 		(stroke
@@ -4536,6 +4556,16 @@
 		)
 		(uuid "0f14ae61-2087-45a1-8d45-2f1636b12a31")
 	)
+	(label "USB_D+"
+		(at 142.24 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "125d7162-1930-43eb-900e-3566407f0093")
+	)
 	(label "SDA"
 		(at 219.71 52.07 0)
 		(effects
@@ -4695,6 +4725,16 @@
 			(justify left bottom)
 		)
 		(uuid "47c71a4a-f1ee-4597-ae53-b7ba50923863")
+	)
+	(label "USB_D-"
+		(at 142.24 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48718b3b-f41e-4bfe-b9cb-54f216522533")
 	)
 	(label "SCL"
 		(at 219.71 49.53 0)
@@ -5318,6 +5358,28 @@
 			)
 		)
 	)
+	(global_label "USB_D+"
+		(shape bidirectional)
+		(at 172.72 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "224904be-a1fb-4731-9c8d-944e376db486")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.3252 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_VCP_RX"
 		(shape bidirectional)
 		(at 172.72 147.32 0)
@@ -5375,6 +5437,28 @@
 		(uuid "50473f1c-d7e8-4ada-8559-074ba5d521b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.4657 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape bidirectional)
+		(at 172.72 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "512d6fa7-44d7-44f8-886e-48223979f8a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.3252 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)

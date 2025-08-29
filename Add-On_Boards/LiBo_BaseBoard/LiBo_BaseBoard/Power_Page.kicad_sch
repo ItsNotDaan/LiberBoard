@@ -3830,7 +3830,7 @@
 		(uuid "ca1c2dec-8bbf-4f6d-9eb8-b56280b40b10")
 	)
 	(global_label "USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 123.19 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3852,7 +3852,7 @@
 		)
 	)
 	(global_label "USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 124.46 48.26 0)
 		(fields_autoplaced yes)
 		(effects
