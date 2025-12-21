@@ -23,6 +23,32 @@ Some bootpins were removed to change to a more usable setup. The board has also 
 
 All these components are included on a M.2-B-Key footprint. 
 
+## JLCPCB Ordering Details
+
+- **Base Material:** FR-4
+- **Layers:** 4
+- **Dimension:** 70.97 mm × 70 mm
+- **PCB Thickness:** 0.8 mm
+- **Specify Stackup:** yes — JLC04081H-7628
+- **Impedance Control:** No requirement
+- **Material Type:** FR4 TG135
+- **Via Covering:** Plugged
+- **Surface Finish:** ENIG — Gold Thickness: 1U"
+- **Outer Copper Weight:** 1 oz
+- **Inner Copper Weight:** 0.5 oz
+- **Gold Fingers:** Yes
+- **Beveling:** 45°
+- **Mark on PCB:** 2D barcode (Serial Number)
+- **Min via hole size/diameter:** 0.3 mm / (0.4 / 0.45 mm)
+- **Appearance Quality:** IPC Class 2 Standard
+- **Silkscreen Technology:** Ink-jet/Screen Printing Silkscreen
+- **Package Box:** With JLCPCB logo
+- **Board Outline Tolerance:** ±0.2 mm (Regular)
+
+### Notes
+- **Layer Sequence:** Top / GND / VCC / Bottom (from design)
+- **NOTE:** If a detail is not shown it means the standard is used. 
+ 
 ### Inspiration
 
 The idea originated from a desire to create a more complex and smaller PCB that incorporates an expensive CPU. This CPU should be versatile enough to be used on different projects. After watching a video from Phil's Lab, I learned that M.2 was a great alternative to the mostly used header pin setup. 
