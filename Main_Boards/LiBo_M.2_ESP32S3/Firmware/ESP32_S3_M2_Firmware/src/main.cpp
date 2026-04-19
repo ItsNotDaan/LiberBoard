@@ -1,28 +1,68 @@
 #include <Arduino.h>
-#include <LED.h>
+// #include <LED.h>
 
 /*To do:
   - Add the SPI flash memory. DONE
   - Add the RGB LED. DONE
   - Check the USB connection.
   - Add some DSP functions in Espressif IoT Development Framework.
-  - Add a WiFi connection. 
+  - Add a WiFi connection.
   - Add a Bluetooth connection.
 
 */
 
-void setup() {
+// #include <FastLED.h>
+
+// #define DATA_PIN 46
+// #define NUM_LEDS 1
+// #define BRIGHTNESS 30
+// #define LED_TYPE WS2812B
+// #define COLOR_ORDER RGB
+
+// // Declare the array of leds
+// CRGB leds[NUM_LEDS];
+
+// #define UPDATES_PER_SECOND 100
+
+// void RGB_LED(bool state, int r, int g, int b)
+// {
+//   if (state)
+//   {
+//     leds[0] = CRGB(r, g, b);
+//     FastLED.show();
+//   }
+//   else
+//   {
+//     leds[0] = CRGB(0, 0, 0);
+//     FastLED.show();
+//   }
+// }
+
+void setup()
+{
   // put your setup code here, to run once:
-  
-  //Init LED
-  FastLED.addLeds<LED_TYPE, DATA_PIN, COLOR_ORDER>(leds, NUM_LEDS);
+
+  Serial.begin(115200);
+  delay(1000); // Allow time for Serial to initialize
+  Serial.println("\n\nSetup starting...");
+
+  // Init LED
+  // Serial.println("Initializing FastLED...");
+  // FastLED.addLeds<LED_TYPE, DATA_PIN, COLOR_ORDER>(leds, NUM_LEDS);
+  // FastLED.setBrightness(BRIGHTNESS);
+  // Serial.println("FastLED initialized successfully");
 }
 
-void loop() {
+void loop()
+{
   // put your main code here, to run repeatedly:
-  RGB_LED(true, 255, 0, 0);
+
+  Serial.println("LED ON");
+  // RGB_LED(true, 255, 0, 0);
   delay(1000);
-  RGB_LED(false, 0, 0, 0);
+
+  Serial.println("LED OFF");
+  // RGB_LED(false, 0, 0, 0);
   delay(1000);
 }
 
